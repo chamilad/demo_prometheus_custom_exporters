@@ -22,3 +22,5 @@ for service discovery. Use `docker compose up` to start the services. Navigate
 to `http://127.0.0.1:3000` and import the `grafana.json` dashboard after
 setting up the prometheus data source.
 
+![Grafana Dashboard](./dashboard.png)
+
