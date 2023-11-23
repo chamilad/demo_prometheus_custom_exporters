@@ -18,5 +18,7 @@ metrics collection along with a grafana dashboard to spice the demo up
 is also included. Prometheus port 9090 is mapped to host port 9090 and 
 Grafana port 3000 is mapped to host port 3000. Uses host networking to 
 keep things simple so that all can talk to each other without the need 
-for service discovery.
+for service discovery. Use `docker compose up` to start the services. Navigate
+to `http://127.0.0.1:3000` and import the `grafana.json` dashboard after
+setting up the prometheus data source.
 
